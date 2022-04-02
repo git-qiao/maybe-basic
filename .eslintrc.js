@@ -84,7 +84,7 @@ module.exports = {
         SwitchCase: 1
       }
     ],
-    'jsx-quotes': [2, 'prefer-single'],
+    // 'jsx-quotes': [2, 'prefer-single'],
     'key-spacing': [
       2,
       {
@@ -226,7 +226,7 @@ module.exports = {
         allowTemplateLiterals: true
       }
     ],
-    semi: [2, 'never'],
+    semi: [0, 'never'],
     'semi-spacing': [
       2,
       {
@@ -235,7 +235,7 @@ module.exports = {
       }
     ],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [1, 'never'],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [
@@ -268,13 +268,7 @@ module.exports = {
     yoda: [2, 'never'],
     'prefer-const': 2,
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'object-curly-spacing': [
-      2,
-      'always',
-      {
-        objectsInObjects: false
-      }
-    ],
+    'object-curly-spacing': [2, 'always'],
     'array-bracket-spacing': [2, 'never']
   }
-}
+};
