@@ -11,11 +11,8 @@ module.exports = {
   },
   // extends: ['plugin:vue/recommended', 'eslint:recommended'],
   extends: [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/recommended',
     'eslint:recommended',
-    '@vue/typescript/recommended',
-    '@vue/prettier',
-    '@vue/prettier/@typescript-eslint',
     'plugin:prettier/recommended'
   ],
 
