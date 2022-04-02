@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "johnsoncodehk.vscode-typescript-vue-plugin",
+    "dbaeumer.vscode-eslint",
+    "johnstoncode.svn-scm",
+    "obkoro1.korofileheader",
+    "stevencl.adddoccomments",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "oderwat.indent-rainbow",
+    "EditorConfig.EditorConfig"
+  ]
+}
